@@ -4,6 +4,10 @@
     --dusk-blue: #4A5899;
     --moonstone: #559CAD;
     --isabelline: #EEE9E8;
+
+    --cornell-red: #bf211e;
+    --black: #040404;
+    --pale-dogwood: #fff0ec;
 }
 
 * {
@@ -34,7 +38,7 @@
 }
 
 #img1 {
-    object-position: center 50%;
+    object-position: center 30%;
 }
 
 #img2 {
@@ -43,6 +47,14 @@
 
 #img3 {
     object-position: center 50%;
+}
+
+span p{
+    color: #BF211e;
+}
+
+span {
+    color: #BF211e;
 }
 
 @media screen and (min-width: 400px) {

@@ -4,6 +4,11 @@
     --dusk-blue: #4A5899;
     --moonstone: #559CAD;
     --isabelline: #EEE9E8;
+
+    --cornell-red: #bf211e;
+    --black: #040404;
+    /* --pale-dogwood: #FFD9CE; */
+    --pale-dogwood: #fff0ec;
 }
 
 * {
@@ -12,7 +17,7 @@
 }
 
 body {
-    background-color: var(--isabelline) !important;
+    background-color: var(--pale-dogwood) !important;
 }
 
 
@@ -22,7 +27,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: var(--moonstone);
+    background-color: var(--cornell-red);
     left: 0;
     right: 0;
     color: var(--isabelline);
