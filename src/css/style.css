@@ -1,6 +1,6 @@
 :root {
     --magenta: #92374D;
-    --plum:#8c5383;
+    --plum: #8c5383;
     --dusk-blue: #4A5899;
     --moonstone: #559CAD;
     --isabelline: #EEE9E8;
@@ -15,7 +15,9 @@ body {
     background-color: var(--isabelline) !important;
 }
 
+
 /* Footer */
+
 .info {
     position: fixed;
     bottom: 0;
@@ -27,9 +29,11 @@ body {
     text-align: center;
 }
 
+
 /* Social Media Bar */
+
 .social-media {
-    background-color: #559CAD;
+    background-color: #9ad7e7;
     /* Background color for the social media bar */
     /* Text color for the social media bar */
     padding: 8px;
@@ -61,7 +65,9 @@ body {
     /* Adjust icon size as needed */
 }
 
+
 /* Nav Bar */
+
 .navbar-logo {
     width: 60px;
     /* Adjust the width as needed */
@@ -86,12 +92,12 @@ body .nav-link {
 }
 
 body .nav-link:hover {
-    color: var(--nav-link-hover-color, #92374D);
+    color: var(--nav-link-hover-color, solid rgb(255, 128, 0));
     /* Change color on hover */
 }
 
 .rounded-bar {
-    background-color: #559CAD;
+    background-color: #9ad7e7;
     /* Background color for the navigation bar */
     border-radius: 17px;
     /* Add rounded corners */
