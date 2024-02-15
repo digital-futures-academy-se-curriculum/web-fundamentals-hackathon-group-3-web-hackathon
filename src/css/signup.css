@@ -11,8 +11,13 @@
     box-sizing: border-box;
 }
 
-#signUpForm input, select {
+#signUpForm input, #signUpForm select {
     width: 100%;
+    margin: 10px;
+}
+
+#signUpForm label {
+    margin: 10px;
 }
 
 #signUpForm input[type="submit"] {
@@ -25,6 +30,7 @@
     width: 500px;
     height: 200px;
     object-fit: cover;
+    margin-bottom: 5%;
 }
 
 #img1 {
@@ -32,9 +38,81 @@
 }
 
 #img2 {
-    object-position: center 50%;
+    object-position: center 0%;
 }
 
 #img3 {
     object-position: center 50%;
+}
+
+@media screen and (min-width: 400px) {
+    .cropped-image {
+        width: 350px;
+        height: 120px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-margin {
+        height: 5%;
+    }
+
+    #signUpForm input,
+    #signUpForm select {
+        margin: 5px;
+    }
+
+    #signUpForm label {
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .cropped-image {
+        width: 300px;
+        height: 120px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-margin {
+        height: 5%;
+    }
+
+    #signUpForm input, #signUpForm select {
+        margin: 5px;
+    }
+    
+    #signUpForm label {
+        margin: 5px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .cropped-image {
+        width: 300px;
+        height: 120px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .cropped-image {
+        width: 400px;
+        height: 160px;
+    }
+
+    .form-margin {
+        height: 15%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .cropped-image {
+        width: 500px;
+        height: 200px;
+    }
 }
