@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: var(--isabelline);
+    background-color: var(--isabelline) !important;
 }
 
 /* Footer */
@@ -25,4 +25,76 @@ body {
     right: 0;
     color: var(--isabelline);
     text-align: center;
+}
+
+/* Social Media Bar */
+.social-media {
+    background-color: #559CAD;
+    /* Background color for the social media bar */
+    /* Text color for the social media bar */
+    padding: 8px;
+    /* Add padding to the social media bar */
+    border-radius: 15px;
+    /* Add curved edges */
+    display: flex;
+    /* Make the container a flex container */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: center;
+    /* Center items horizontally */
+}
+
+.social-icons {
+    display: flex;
+    /* Align icons horizontally */
+}
+
+.social-icons a {
+    margin-right: 10px;
+    /* Add space between icons */
+}
+
+.social-icons img {
+    width: 30px;
+    /* Adjust icon size as needed */
+    height: 30px;
+    /* Adjust icon size as needed */
+}
+
+/* Nav Bar */
+.navbar-logo {
+    width: 60px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-right: 10px;
+    /* Add space between logo and navigation links */
+}
+
+body .nav-link {
+    color: var(--nav-link-color, white);
+    /* Text color for the navigation links */
+    margin-right: 10px;
+    /* Add space between links */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.nav-link.active {
+    font-weight: bold;
+    /* Make active link bold */
+}
+
+body .nav-link:hover {
+    color: var(--nav-link-hover-color, #92374D);
+    /* Change color on hover */
+}
+
+.rounded-bar {
+    background-color: #559CAD;
+    /* Background color for the navigation bar */
+    border-radius: 17px;
+    /* Add rounded corners */
+    padding: 8px;
+    /* Add padding to the navigation bar */
 }
