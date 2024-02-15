@@ -1,0 +1,28 @@
+:root {
+    --magenta: #92374D;
+    --plum:#8c5383;
+    --dusk-blue: #4A5899;
+    --moonstone: #559CAD;
+    --isabelline: #EEE9E8;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--isabelline);
+}
+
+/* Footer */
+.info {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--moonstone);
+    left: 0;
+    right: 0;
+    color: var(--isabelline);
+    text-align: center;
+}

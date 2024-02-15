@@ -1,0 +1,40 @@
+:root {
+    --magenta: #92374D;
+    --plum:#8c5383;
+    --dusk-blue: #4A5899;
+    --moonstone: #559CAD;
+    --isabelline: #EEE9E8;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#signUpForm input, select {
+    width: 100%;
+}
+
+#signUpForm input[type="submit"] {
+    color: white;
+    background-color: var(--dusk-blue);
+    border-radius: 5px;
+}
+
+.cropped-image {
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#img1 {
+    object-position: center 50%;
+}
+
+#img2 {
+    object-position: center 50%;
+}
+
+#img3 {
+    object-position: center 50%;
+}
