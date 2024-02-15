@@ -1,0 +1,51 @@
+/* styles.css */
+
+:root {
+    --magenta: #92374D;
+    --plum: #8c5383;
+    --dusk-blue: #EEE9E8;
+    --moonstone: #559CAD;
+    --isabelline: #EEE9E8;
+}
+
+/* style.css or Homepage.cs s */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row>[class^="col-"] {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    
+    /* Default background color with fallback */
+    font-family: Tahoma, sans-serif;
+    /* Style active navigation link */
+}
+.text-center {
+    text-align: center;
+    /* Align text to the center */
+}
+
+.line-spacing {
+    line-height: 2.5;
+    /* Adjust the value as needed */
+}
+
+.rounded-image {
+    border-radius: 10px;
+    /* Adjust the radius to control the roundness of the corners */
+    padding: 10px;
+    /* Adjust the padding to create space around the image */
+}
+
+.image {
+    width: 700px;
+    /* Set the width to 1118 pixels */
+    height: 200px;
+    /* Set the height to 315 pixels */
+    padding: 5px;
+}

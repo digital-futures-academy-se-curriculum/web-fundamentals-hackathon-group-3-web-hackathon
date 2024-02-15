@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13863572&assignment_repo_type=AssignmentRepo)
 # Web Fundamentals Group Hackathon
 
 Your first experience of a slightly larger project in a group! You will be working in your peer groups for the day to create a static website for DF Cinemas. You will be using the skills you have learned so far in the course to create a website that meets the requirements of the business.

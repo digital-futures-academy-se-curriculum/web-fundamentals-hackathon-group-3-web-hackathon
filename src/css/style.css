@@ -1,0 +1,111 @@
+:root {
+    --magenta: #92374D;
+    --plum: #8c5383;
+    --dusk-blue: #4A5899;
+    --moonstone: #559CAD;
+    --isabelline: #EEE9E8;
+
+    --cornell-red: #bf211e;
+    --black: #040404;
+    /* --pale-dogwood: #FFD9CE; */
+    --pale-dogwood: #fff0ec;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--pale-dogwood) !important;
+}
+
+
+/* Footer */
+
+.info {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--cornell-red);
+    left: 0;
+    right: 0;
+    color: var(--isabelline);
+    text-align: center;
+}
+
+
+/* Social Media Bar */
+
+.social-media {
+    background-color: #9ad7e7;
+    /* Background color for the social media bar */
+    /* Text color for the social media bar */
+    padding: 8px;
+    /* Add padding to the social media bar */
+    border-radius: 15px;
+    /* Add curved edges */
+    display: flex;
+    /* Make the container a flex container */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: center;
+    /* Center items horizontally */
+}
+
+.social-icons {
+    display: flex;
+    /* Align icons horizontally */
+}
+
+.social-icons a {
+    margin-right: 10px;
+    /* Add space between icons */
+}
+
+.social-icons img {
+    width: 30px;
+    /* Adjust icon size as needed */
+    height: 30px;
+    /* Adjust icon size as needed */
+}
+
+
+/* Nav Bar */
+
+.navbar-logo {
+    width: 60px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-right: 10px;
+    /* Add space between logo and navigation links */
+}
+
+body .nav-link {
+    color: var(--nav-link-color, white);
+    /* Text color for the navigation links */
+    margin-right: 10px;
+    /* Add space between links */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.nav-link.active {
+    font-weight: bold;
+    /* Make active link bold */
+}
+
+body .nav-link:hover {
+    color: var(--nav-link-hover-color, solid rgb(255, 128, 0));
+    /* Change color on hover */
+}
+
+.rounded-bar {
+    background-color: #9ad7e7;
+    /* Background color for the navigation bar */
+    border-radius: 17px;
+    /* Add rounded corners */
+    padding: 8px;
+    /* Add padding to the navigation bar */
+}

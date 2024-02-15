@@ -1,0 +1,96 @@
+/* styles.css */
+
+:root {
+    --magenta: #92374D;
+    --plum: #8c5383;
+    --dusk-blue: #4A5899;
+    --moonstone: #559CAD;
+    --isabelline: #EEE9E8;
+}
+
+
+/* style.css or Homepage.cs s */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row>[class^="col-"] {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: var(--background-color, #EEE9E8);
+    /* Default background color with fallback */
+    font-family: Tahoma, sans-serif;
+    /* Style active navigation link */
+}
+
+.text-center {
+    text-align: center;
+    /* Align text to the center */
+}
+
+.line-spacing {
+    line-height: 2.5;
+    /* Adjust the value as needed */
+}
+
+.rounded-image {
+    border-radius: 10px;
+    /* Adjust the radius to control the roundness of the corners */
+    padding: 10px;
+    /* Adjust the padding to create space around the image */
+}
+
+.image {
+    width: 700px;
+    /* Set the width to 1118 pixels */
+    height: 200px;
+    /* Set the height to 315 pixels */
+    padding: 10px;
+}
+
+.opening-times-box {
+    background-color: #9ad7e7;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.opening-times-list {
+    list-style-type: none;
+    padding: 5;
+    font-size: 14px;
+}
+
+.opening-times-list li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.whatsOn-box {
+    background-color: #9ad7e7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.whatsOn-box p {
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 18px;
+    /* Increase font size */
+}
+
+.movie-title {
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 36px;
+    padding-top: 85px
+}
+
+
+/* Remove this extra closing curly brace */
