@@ -1,13 +1,115 @@
 /* styles.css */
 
-.navbar {
-    background-color: #e05a7b;
+ :root {
+    --magenta: #92374D;
+    --plum: #8c5383;
+    --dusk-blue: #EEE9E8;
+    --moonstone: #559CAD;
+    --isabelline: #EEE9E8;
+    /* style.css or Homepage.cs s */
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row>[class^="col-"] {
+        display: flex;
+        flex-direction: column;
+    }
+    body {
+        background-color: var(--background-color, #EEE9E8);
+        /* Default background color with fallback */
+        font-family: Tahoma, sans-serif;
+        /* Style active navigation link */
+    }
+    .rounded-bar {
+        background-color: #559CAD;
+        /* Background color for the navigation bar */
+        border-radius: 17px;
+        /* Add rounded corners */
+        padding: 8px;
+        /* Add padding to the navigation bar */
+    }
+    .nav-link {
+        color: var(--nav-link-color, white);
+        /* Text color for the navigation links */
+        margin-right: 10px;
+        /* Add space between links */
+        text-decoration: none;
+        /* Remove underline */
+    }
+    .nav-link.active {
+        font-weight: bold;
+        /* Make active link bold */
+    }
+    .nav-link:hover {
+        color: var(--nav-link-hover-color, #92374D);
+        /* Change color on hover */
+    }
 }
 
-.navbar .nav-link {
-    color: white;
+.social-media {
+    background-color: #559CAD;
+    /* Background color for the social media bar */
+    /* Text color for the social media bar */
+    padding: 8px;
+    /* Add padding to the social media bar */
+    border-radius: 15px;
+    /* Add curved edges */
+    display: flex;
+    /* Make the container a flex container */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: center;
+    /* Center items horizontally */
 }
 
-.navbar .nav-link:hover {
-    color: rgb(0, 0, 0);
+.social-icons {
+    display: flex;
+    /* Align icons horizontally */
+}
+
+.social-icons a {
+    margin-right: 10px;
+    /* Add space between icons */
+}
+
+.social-icons img {
+    width: 30px;
+    /* Adjust icon size as needed */
+    height: 30px;
+    /* Adjust icon size as needed */
+}
+
+.text-center {
+    text-align: center;
+    /* Align text to the center */
+}
+
+.line-spacing {
+    line-height: 2.5;
+    /* Adjust the value as needed */
+}
+
+.rounded-image {
+    border-radius: 10px;
+    /* Adjust the radius to control the roundness of the corners */
+    padding: 10px;
+    /* Adjust the padding to create space around the image */
+}
+
+.navbar-logo {
+    width: 60px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-right: 10px;
+    /* Add space between logo and navigation links */
+}
+
+.image {
+    width: 700px;
+    /* Set the width to 1118 pixels */
+    height: 200px;
+    /* Set the height to 315 pixels */
+    padding: 5px;
 }
